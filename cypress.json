@@ -6,7 +6,7 @@
         "jiraProjectId": "17602", 
         "jiraCycleID":"40",
         "jira_flag":"false",
-        "apiBaseUrl":"https://jira.gamma.bcg.com",
-        "auth": "Basic dmVybWEuc2FydGhha0BiY2cuY29tOk1Ba2FIZlluRjdWMGlVVHhRbWl3VWMwWWNCM1I3Q0p5RnhmOG5k"
+        "apiBaseUrl":"",
+        "auth": ""
     }
 }
