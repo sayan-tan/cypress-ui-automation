@@ -1,0 +1,18 @@
+{
+    "username":"test",
+    "password":"test",
+    "heading_afterLogin":"",
+
+    "origin_city":"Mumbai",
+    "destination_city":"New",
+
+    "year":"2022",
+    "month":"November",
+    "date":"21",
+    "final_date":"11/21/2022",
+    
+    "intercept_username":"tomsmith",
+    "intercept_password":"SuperSecretPassword!",
+    "withoutStubText":"Welcome to the Secure Area",
+    "withStubText":"This is the stubbed method"
+}

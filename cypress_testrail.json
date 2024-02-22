@@ -1,0 +1,19 @@
+{
+    "defaultCommandTimeout" : 10000,
+    "screenshotOnRunFailure": false,
+    "video":false,
+    "env":{
+        "jira_flag":"false",
+        "testrail_flag":"true"
+    },
+    "reporter": "cypress-testrail-reporter",
+    "reporterOptions": {
+        "host": "https://pokerdev15.testrail.io",
+        "username": "developer.custom15@gmail.com",
+        "password": "7yCRAXA4bIhhIm5OgUvM",
+        "projectId": 1,
+        "suiteId": 1,
+        "runName":"Cypress Automated Test Run",
+        "allowFailedScreenshotUpload":true
+    }
+ }

@@ -1,0 +1,31 @@
+{
+  "name": "cypress",
+  "version": "1.0.0",
+  "description": "GUI Automation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:open": "cypress open --browser chrome --config-file cypress_zapi",
+    "cy:testrail": "cypress run --headless --browser chrome --config-file cypress_testrail --reporter cypress-testrail-reporter --spec ./cypress/integration/Testrail/Testrail_testcases.spec.js",
+    "cy:mocha": "cypress run --headless --browser chrome --config-file cypress_mocha --reporter cypress-mochawesome-reporter --spec ./cypress/integration/MochaReports/*.spec.js",
+    "cy:zephyr": "cypress run --headless --browser chrome --config-file cypress_zapi --reporter cypress-multi-reporters --spec ./cypress/integration/Zephyr/Testcases_Zephyr.spec.js",
+    "cy:run": "cypress run --headless --browser chrome --reporter cypress-mochawesome-reporter",
+    "cy:bstack": "cypress run --headless --browser chrome --config-file cypress_zapi --spec ./cypress/integration/Example/*.spec.js"
+  },
+  "author": "Sarthak Verma",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^9.4.1",
+    "cypress-mochawesome-reporter": "^2.3.0",
+    "cypress-testrail-reporter": "^1.3.3"
+  },
+  "dependencies": {
+    "axios": "^0.25.0",
+    "cypress-multi-reporters": "^1.5.0",
+    "junit-report-merger": "^3.0.5",
+    "mocha": "^9.2.1",
+    "mocha-junit-reporter": "^2.0.2",
+    "nodemailer": "^6.7.2",
+    "request": "^2.88.2"
+  }
+}

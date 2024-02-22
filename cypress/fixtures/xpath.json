@@ -1,0 +1,29 @@
+{
+    "username_textbox":"[name='uname']",
+    "password_textbox":"[name='pass']",
+    "submit_btn":"[value='login']",
+    "heading_path":"#pageName",
+
+
+    "ticketTypeRadio_btn":".BpkRadio_bpk-radio__OTA1M [type='radio']",
+    "origin_textbox":"#fsc-origin-search",
+    "countryList":".BpkAutosuggest_bpk-autosuggest__suggestion-item__YmVmN",
+    "destination_textbox":"#fsc-destination-search",
+    "searchFlight_btn":".BpkButtonBase_bpk-button__NTM4Y",
+
+
+    "calendarView":"#demo-dh1egstb3u6",
+    "calendarView_btn":".MuiButtonBase-root.MuiIconButton-root.MuiIconButton-edgeEnd.MuiIconButton-sizeMedium",
+    "calendarView_1_year_selector_btn":"[data-testid='ArrowDropDownIcon']",
+    "calendarView_1_yearList":".PrivatePickersYear-yearButton",
+    "calendarView_1_month_item":".PrivatePickersFadeTransitionGroup-root.css-1bx5ylf",
+    "calendarView_1_monthLeft_btn":"[data-testid='ArrowLeftIcon']",
+    "calendarView_1_monthRight_btn":"[data-testid='ArrowRightIcon']",
+    "calendarView_1_date_btn":".MuiButtonBase-root.MuiPickersDay-root.MuiPickersDay-dayWithMargin",
+    "final_date":"#mui-5",
+
+    "intercept_username":"#username",
+    "intercept_password":"#password",
+    "intercept_login_btn":"button[type='submit']",
+    "intercept_heading_textbox":".subheader"
+}

@@ -1,0 +1,16 @@
+{
+    "defaultCommandTimeout" : 10000,
+    "screenshotOnRunFailure": true,
+    "video":false,
+    "env":{
+        "jira_flag":"false",
+        "testrail_flag":"false"
+    },
+    "reporter": "cypress-mochawesome-reporter",
+    "reporterOptions": {
+        "reportDir": "cypress/reports",
+        "charts": true,
+        "reportPageTitle": "GUI Automation Report",
+        "html":true
+    }
+ }

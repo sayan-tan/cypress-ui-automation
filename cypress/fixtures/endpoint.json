@@ -1,0 +1,9 @@
+{
+    "login_URL":"http://testphp.vulnweb.com/login.php",
+    "flightBooking_URL":"https://www.skyscanner.co.in",
+    "reactCalendar_URL":"https://mui.com/components/pickers/",
+    "google_URL":"www.google.com",
+    "intercept_URL":"https://the-internet.herokuapp.com/login",
+    "getURL":"https://httpbin.org/get",
+    "postURL":"https://httpbin.org/post"
+}
